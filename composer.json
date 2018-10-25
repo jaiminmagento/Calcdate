@@ -1,0 +1,25 @@
+{
+  "name": "Jaimin Patel",
+  "description": "PHP application bootstrapped without a framework.",
+  "type": "project",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Jaimin Patel"
+    }
+  ],
+  "require": {
+    "php": "7.1.*",
+    "php-di/php-di": "^6.0",
+    "relay/relay": "2.x@dev",
+    "zendframework/zend-diactoros": "^1.7",
+    "middlewares/fast-route": "^1.0",
+    "middlewares/request-handler": "^1.1",
+    "phpunit/phpunit": "^3.7.21"
+  },
+  "autoload": {
+    "psr-4": {
+      "Calc\\": "Calc/Classes"
+    }
+  }
+}
